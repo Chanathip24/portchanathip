@@ -8,7 +8,7 @@ const Simplework = ({data}) => {
         <section className='p-3 md:p-0 container mx-auto mt-5 mb-16'>
             <h5 className='text-lg'>Portfolio</h5>
             <div className='mt-5 flex flex-col md:flex-row gap-3 md:gap-0 justify-between md:items-center'>
-                <h1 className='text-4xl md:w-1/4'>Let's have a look at my portfolio</h1>
+                <h1 className='text-4xl md:w-1/3 xl:w-1/4'>Let's have a look at my portfolio</h1>
                 <Link to='/works'><p className='underline'>See All</p></Link>
                 
             </div>

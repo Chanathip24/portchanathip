@@ -34,7 +34,7 @@ const Home = () => {
         <>
             <Navbar />
             <main >
-                
+                <SocialMedia/>
                 <Hero />
                 <Details />
                 <Simplework data={data}/>

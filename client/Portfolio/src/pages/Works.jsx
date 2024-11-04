@@ -50,7 +50,7 @@ const Works = () => {
                 <h1  className='text-3xl mt-5 text-center md:text-start'>My works</h1>
                 <p className='text-gray-500 text-center md:text-start'>My github repository works.</p>
                 {/* All of my works */}
-                <motion.section variants={staggerParentVariants} initial="hidden" animate="visible" className='grid  md:place-items-start md:grid-cols-3 md:gap-5 mt-5'>
+                <motion.section variants={staggerParentVariants} initial="hidden" animate="visible" className='grid  md:place-items-start md:grid-cols-2 lg:grid-cols-3 p-3 md:p-0 gap-3 md:gap-x-5 md:gap-y-10 mt-5'>
 
                     {/* Card */}
                     {data.map((item, key) => {
