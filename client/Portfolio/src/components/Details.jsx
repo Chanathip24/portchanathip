@@ -47,11 +47,11 @@ const Details = () => {
                 </motion.div>
 
             </motion.div>
-            <div className='flex flex-col p-4 md:p-0 gap-5 justify-center'>
-                <h5 className='text-lg'>Feature Service</h5>
-                <h1 className='text-4xl'>Web development</h1>
-                <p className='text-gray-600'>I provide web development services, specializing in responsive frontend and backend solutions. I focus on creating user-friendly websites that perform well on all devices.</p>
-            </div>
+            <motion.div variants={parentVarient} initial="hidden" whileInView='visible' className='flex flex-col p-4 md:p-0 gap-5 justify-center'>
+                <motion.h5 variants={itemVarient} className='text-lg'>Feature Service</motion.h5>
+                <motion.h1 variants={itemVarient} className='text-4xl'>Web development</motion.h1>
+                <motion.p variants={itemVarient} className='text-gray-600'>I provide web development services, specializing in responsive frontend and backend solutions. I focus on creating user-friendly websites that perform well on all devices.</motion.p>
+            </motion.div>
         </section>
     )
 }

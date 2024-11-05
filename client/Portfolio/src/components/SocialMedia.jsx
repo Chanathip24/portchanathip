@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 //icon
 import { FaInstagram, FaGithub, FaFacebook } from "react-icons/fa";
 import { AiOutlineGlobal } from "react-icons/ai";
+import { FaLinkedin } from "react-icons/fa";
 const SocialMedia = () => {
 
     //social toggle
@@ -19,7 +20,7 @@ const SocialMedia = () => {
                 <ul className='text-4xl flex flex-col gap-5'>
                     <a target='blank' href="https://github.com/Chanathip24"><li className=' p-3 transition-all border rounded-full hover:border hover:border-black cursor-pointer'><FaGithub /></li></a>
                     <a target='blank' href="https://www.facebook.com/jab.chowapong/"><li className=' p-3 transition-all border rounded-full hover:border hover:border-black cursor-pointer'><FaFacebook /></li></a>
-                    <a target='blank' href="https://www.instagram.com/jabqq_/"><li className=' p-3 transition-all border rounded-full hover:border hover:border-black cursor-pointer'><FaInstagram /></li></a>
+                    <a target='blank' href="https://www.linkedin.com/in/chanathip24/"><li className=' p-3 transition-all border rounded-full hover:border hover:border-black cursor-pointer'><FaLinkedin/></li></a>
 
                 </ul>
             </section>
@@ -35,7 +36,7 @@ const SocialMedia = () => {
                 <ul className='text-2xl flex flex-col gap-5'>
                     <a target='blank' href="https://github.com/Chanathip24"><li className=' p-3 transition-all border rounded-full hover:border hover:border-black cursor-pointer'><FaGithub /></li></a>
                     <a target='blank' href="https://www.facebook.com/jab.chowapong/"><li className=' p-3 transition-all border rounded-full hover:border hover:border-black cursor-pointer'><FaFacebook /></li></a>
-                    <a target='blank' href="https://www.instagram.com/jabqq_/"><li className=' p-3 transition-all border rounded-full hover:border hover:border-black cursor-pointer'><FaInstagram /></li></a>
+                    <a target='blank' href="https://www.linkedin.com/in/chanathip24/"><li className=' p-3 transition-all border rounded-full hover:border hover:border-black cursor-pointer'><FaLinkedin/></li></a>
 
                 </ul>
             </section>
