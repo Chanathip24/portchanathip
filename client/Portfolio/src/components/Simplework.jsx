@@ -1,7 +1,7 @@
 import React from 'react'
-import Card from './Card'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
+import Workcard from './Workcard'
 const Simplework = ({data}) => {
 
     const parentVarient = {
@@ -27,9 +27,9 @@ const Simplework = ({data}) => {
                 
             </motion.div>
             {/* Work container section */}
-            <div variants={parentVarient} initial="hidden" whileInView="visible" className='grid md:grid-cols-3 gap-10 mt-8 place-items-center'>
+            <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-8 place-items-center'>
                 {data && Array.isArray(data) ? data.map((item,key)=>{
-                    return <motion.div variants={itemVarient}><Card item={item} key={key}/></motion.div>
+                    return <motion.div className='w-full ' key={key} variants={itemVarient}><Workcard item={item}/></motion.div>
                 }) : undefined}
             </div>
         </motion.section>
