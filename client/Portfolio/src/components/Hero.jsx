@@ -13,7 +13,7 @@ const Hero = () => {
             <p className='w-[90%] md:w-1/2 lg:w-1/3 text-center tracking-wider text-gray-600'>I specialize in full-stack web development and Linux server deployment. Skilled in building scalable, responsive applications using modern JavaScript frameworks and libraries.</p>
 
             <div className='flex md:flex-row flex-col gap-5'>
-                <a target='blank' href="/Chanathip_CV.pdf">
+                <a target='blank' href="/CV_Chanathip_Chaowaphong.pdf">
                     <button className='px-10 py-3 border border-white rounded-3xl flex items-center gap-3 hover:border-black hover:text-white hover:bg-black transition'>Download CV <RxDownload className='text-xl' /></button>
                 </a>
 
